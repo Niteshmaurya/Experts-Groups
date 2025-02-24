@@ -43,16 +43,22 @@ body {
     height: auto;
     border-radius: 20px;
 }
-
 .card_body {
     padding: 26px 10px 36px 10px;
+}
+.name_degree{
+    display:  flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    gap: 1px;
 }
 
 .card_title {
     font-weight: 800;
+    /* width: 500px; */
     text-transform: capitalize;
     color: #25262C;
-    font-size: 32px;
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
@@ -61,6 +67,8 @@ body {
     font-size: 22px;
     color: #959EAF;
 }
+
+
 
 .call_btn {
     margin: 140px 0 40px;
