@@ -49,13 +49,16 @@ body {
 .name_degree{
     display:  flex;
     align-items: first baseline;
-    justify-content: space-between;
-    gap: 1px;
+    /* justify-content: space-between; */
+    /* gap: 1px; */
+    margin-left: 15px;
+
 }
 
 .card_title {
     font-weight: 800;
     /* width: 500px; */
+    margin-right: 10px;
     text-transform: capitalize;
     color: #25262C;
     font-size: 25px;
